@@ -1,160 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogesh KR - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        section {
-            margin-bottom: 2rem;
-        }
-        h2 {
-            color: #333;
-            border-bottom: 2px solid #f4f4f9;
-            padding-bottom: 0.5rem;
-        }
-        ul {
-            padding-left: 1.5rem;
-        }
-        ul li {
-            margin-bottom: 0.5rem;
-        }
-        .contact-info, .education, .technical-skills {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .contact-info div, .education div, .technical-skills div {
-            flex: 1;
-            margin: 0.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background: #333;
-            color: #fff;
-        }
-        @media (max-width: 600px) {
-            .contact-info, .education, .technical-skills {
-                flex-direction: column;
-            }
-        }
-    </style>
+<title>Yogesh KR - Portfolio</title>
+<style>
+
+body{
+font-family: Arial;
+margin:40px;
+background:#f4f4f4;
+}
+
+h1{
+color:#2c3e50;
+}
+
+.section{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:8px;
+}
+
+</style>
 </head>
+
 <body>
-    <header>
-        <h1>Yogesh KR</h1>
-        <p>Senior Software Engineer | JIRA Administrator/Developer | DevOps Tools Admin </p>
-    </header>
-    <div class="container">
-        <section>
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <div>
-                    <p><strong>Email:</strong> krraviyogesh@gmail.com</p>
-                    <p><strong>Phone:</strong> +91 7667704203</p>
-                </div>
-                <div>
-                    <p><strong>Location:</strong> Bangalore, Karnataka</p>
-                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yogeshkr" target="_blank">linkedin.com/in/yogeshkr</a></p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Career Objective</h2>
-            <p>Dynamic professional with expertise as an Atlassian Tools Admin/Developer (SME) and DevOps Tools Admin with 6+ years of experience. Proficient in optimizing software development processes, enhancing team collaboration, and driving organizational success.</p>
-            <h2>Career Summary</h2>
-            <ul>
-                <li>Experienced JIRA Administrator and Developer.</li>
-                <li>Acts as the sole Subject Matter Expert (SME) for JIRA-related matters, providing expertise and guidance to teams across geographical locations.</li>
-                <li>Proficient in developing custom workflows, dashboards, and reports.</li>
-                <li>Proficient in REST APIs and scripting (Groovy) for automation and workflow customization. </li>
-                <li>Extensive knowledge and experience with various JIRA plugins, including Structure, Automation for JIRA, ScriptRunner, Smart Attachments, GoEdit, JEditor, Clone Plus, and Checklist.</li>
-                <li>Seasoned Splunk Administrator with expertise in dashboard development.</li>
-                <li>Experienced in configuring alerts and reports for proactive system monitoring.</li>
-                <li>Detail-oriented PowerShell Scripting Specialist.</li>
-                <li>Skilled in developing scripts to automate system administration tasks.</li>
-                <li>Proven track record of enhancing operational efficiency through automation</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Work Experience</h2>
-            <h3>BOSCH Global Solution Tech. (Nov 2021 - Present)</h3>
-            <ul>
-                <li>Seasoned JIRA Developer and Administrator serving as the primary point of contact between India and Germany.</li>
-                <li>Implemented JIRA plugins and add-ons, utilizing REST APIs and ScriptRunner for JIRA to extend functionality and address specific business needs.</li>
-                <li>Groomed a new JIRA team for different Projects at Org. level.</li>
-                <li>Provided technical support and training to end-users, ensuring smooth adoption and effective utilization of JIRA features.</li>
-                <li>Designed and developed custom Splunk dashboards using Splunk Search Processing Language (SPL) to visualize data trends, monitor system health, and troubleshoot issues.</li>
-                <li>Configured Splunk alerts and scheduled reports to notify stakeholders of critical events and deviations from predefined thresholds.</li>
-                <li>Developed PowerShell scripts to automate routine system administration tasks, such as user provisioning and log analysis, resulting in a significant reduction in manual effort and increased efficiency.</li>
-                <li>Collaborated with cross-functional teams to design and implement PowerShell-based solutions to address specific business requirements and improve workflow efficiency.</li>
-                <li>Utilized KNIME Analytics Platform to automate the transformation of unstructured data from a network path into a structured format for Jira.</li>
-                <li>Designed and implemented a workflow in KNIME for monthly data imports to Jira, streamlining the process and eliminating manual intervention.</li>
-            </ul>
-            <h3>Wipro Tech. (Aug 2018 - Oct 2021)</h3>
-            <ul>
-                <li>Assisting staff with GIT , GitHub ,Bitbucket and GitLab.</li>
-                <li>Configuring webhooks, pre-receive hooks at server level and org/repo level for SCM tools.</li> 
-                <li>Managing migration process in SCM tools.</li>
-                <li>Develop guides and documentation for JIRA features and best practices.</li>
-                <li>Configuring CI pipelines with SCM tools.</li>
-                <li>Develop processes and improvements around tools administration.</li>
-                <li>Configuring and managing JIRA tool for clients in PROD ENV and testing in DEV ENV.</li>
-                <li>Create and manage security schemes, permission schemes and configurations in JIRA.</li>
-                <li>Committed code changes written in script runner for custom groovy script utilizing Jira script runner for automated process.</li>
-                <li>Provide User Management and support for 3000+ local and remote users, manage system access across groups to ensure compliance, maintain best practices and got reward from clients and managers for customer centricity.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Technical Skills</h2>
-            <div class="technical-skills">
-                <div>
-                    <p><strong>JIRA:</strong> REST APIs, Groovy Scripting, JQL, Workflow Customization</p>
-                    <p><strong>Splunk:</strong> SPL, Dashboard Creation, Alerting, Reporting</p>
-                </div>
-                <div>
-                    <p><strong>Version Control:</strong> Git, GitHub, Bitbucket, GitLab</p>
-                    <p><strong>Automation:</strong> PowerShell, Python, CI Pipelines</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <div class="education">
-                <div>
-                    <p><strong>Bachelor of Engineering:</strong> Electronics and Communication</p>
-                    <p>K.L.N. College of Information Technology (2014-2018)</p>
-                    <p>CGPA: 7.8</p>
-                </div>
-            </div>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Yogesh KR. All rights reserved.</p>
-    </footer>
+
+<h1>Yogesh KR</h1>
+<p>Senior Software Engineer | Jira SME | DevOps Tools Admin</p>
+
+<div class="section">
+<h2>About Me</h2>
+<p>Experienced Atlassian Tools Administrator and DevOps Tools SME with 6+ years of experience in Jira, Splunk, automation and workflow optimization.</p>
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+<ul>
+<li>Jira Administration</li>
+<li>ScriptRunner (Groovy)</li>
+<li>Splunk Dashboard Development</li>
+<li>PowerShell Automation</li>
+<li>GitHub / GitLab / Bitbucket</li>
+<li>KNIME Data Automation</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Work Experience</h2>
+
+<h3>Bosch Global Software Technologies</h3>
+<p>Senior Software Engineer (2021 – Present)</p>
+
+<ul>
+<li>Primary Jira SME between India and Germany teams</li>
+<li>Developed custom Jira automation using ScriptRunner</li>
+<li>Created Splunk dashboards and alerts</li>
+<li>Automated administrative tasks using PowerShell</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+<p>Email: krraviyogesh@gmail.com</p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/yogesh-kr-b2a96b170/">LinkedIn Profile</a></p>
+</div>
+
 </body>
 </html>
